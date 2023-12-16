@@ -42,11 +42,11 @@ $ npm run start dev
 
 ```diff
 Feito com carinho e desespero por
-+ fecunha
-+ matlopes
-+ rgorki
-+ rivda-si
-+ cnascime
++ fecunha (O+)
++ matlopes (AB)
++ rgorki (AB)
++ rivda-si (A+)
++ cnascime (A+)
 ```
 
 ```diff
