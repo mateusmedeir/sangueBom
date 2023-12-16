@@ -1,0 +1,8 @@
+{
+    "protocol": "POLYGON",
+    "privateKey": "0x1a99233b5c48a7245b6911f6eb8ef5e7ddcfb313e896684ba52c2a42630166a1",
+    "publicKey": "0x6239625d0b0ed30f12e9025392dcbe778bc1aa6aab6c3fced5ac6231281cdfcfae0b1a54c4eca7858b0687124ccd149e0d254f2ab371bc4780f961ac3422d53f",
+    "address": "0xd7997735527690d192e49fc1da146953a0679b45",
+    "xpub": "xpub6DzSzFc6s4W6EQfmy929pLg2PVou4XeGxGgsSE1dbhBWxszwF542pECwK1avmt3y87qFuVkP36MSVWtEjDesC6cyPJAxdwZvTW1bLsu2nai",
+    "testnet": true
+  }
