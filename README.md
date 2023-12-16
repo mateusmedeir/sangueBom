@@ -10,13 +10,13 @@ A interface do projeto permite o cadastro do doador de forma anônima guardando 
 
 Os token e NFTs serão distribuídos através de links para resgate logo após efetuada a doação.
 
-## Clonar o Repositório
+## Clonar o repositório
 
 ```
 $ git clone git@github.com:mateusmedeir/sangueBom.git
 ```
 
-## Iniciar front-end
+## Iniciar o front-end
 ```
 cd frontend && $ yarn
 ```
@@ -36,6 +36,19 @@ cd ../backend && npm i
 $ npm run start dev
 ```
 
-DOE SANGUE
-DOE AGORA
-DOE SEMPRE
+```diff
+Feito com carinho e desespero por
++ fecunha
++ matlopes
++ rgorki
++ rivda-si
++ cnascime
+```
+
+```diff
+- DOE SANGUE
+- DOE AGORA
+- DOE SEMPRE
+```
+
+![Modelo de negócios sangueBom](https://raw.githubusercontent.com/mateusmedeir/sangueBom/main/Modelo%20de%20neg%C3%B3cios.png)
