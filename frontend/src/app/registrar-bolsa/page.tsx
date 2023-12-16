@@ -17,6 +17,12 @@ export default function RegistrarBolsa() {
 		setIsFormValid(!checkInput["email"](email) && !!bloodType);
 	}, [email, bloodType]);
 
+  function registerBag() {
+    if (isFormValid) {
+      
+    }
+  }
+
 	return (
 		<div className="bg-background min-h-screen h-min max-h-screen">
       <TopBar/>
@@ -53,6 +59,7 @@ export default function RegistrarBolsa() {
 						<Button {...{
 							text:"Continuar",
 							color:"red",
+              onClick:registerBag,
 							disabled:!isFormValid
 						}} />
 					</div>
