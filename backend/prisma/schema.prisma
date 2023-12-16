@@ -1,0 +1,43 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        String   @id @default(uuid()) @db.Uuid
+  email     String   @unique
+  name      String
+  donations Donate[]
+
+  @@map("users")
+}
+
+model Donate {
+  id         String   @id @default(uuid()) @db.Uuid
+  blood_type String
+  state      Boolean  @default(false)
+  createdAt  DateTime @default(now()) @map("created_at")
+  updatedAt  DateTime @updatedAt
+  User       User?    @relation(fields: [userId], references: [id])
+  userId     String?  @db.Uuid
+  Patient    Patient? @relation(fields: [patientId], references: [id])
+  patientId  String?  @db.Uuid
+
+  @@map("donations")
+}
+
+model Patient {
+  id         String   @id @default(uuid()) @db.Uuid
+  name       String
+  blood_type String
+  donates    Donate[]
+
+  @@map("patients")
+}
