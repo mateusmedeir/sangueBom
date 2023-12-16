@@ -36,6 +36,10 @@ cd ../backend && npm i
 $ npm run start dev
 ```
 
+
+![Modelo de negócios sangueBom](https://raw.githubusercontent.com/mateusmedeir/sangueBom/main/Modelo%20de%20neg%C3%B3cios.png)
+
+
 ```diff
 Feito com carinho e desespero por
 + fecunha
@@ -50,5 +54,3 @@ Feito com carinho e desespero por
 - DOE AGORA
 - DOE SEMPRE
 ```
-
-![Modelo de negócios sangueBom](https://raw.githubusercontent.com/mateusmedeir/sangueBom/main/Modelo%20de%20neg%C3%B3cios.png)
